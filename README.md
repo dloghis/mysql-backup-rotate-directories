@@ -1,5 +1,5 @@
 # mysql-backup-rotate-directories
-Backup Databases and rotate your directories
+Backup Databases and rotate your directories daily, weekly and monthly
 
 
 EN - English
