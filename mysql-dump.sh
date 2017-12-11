@@ -111,6 +111,6 @@ echo "Your Disk space !!! is:"
 df -h
 echo ""
 
-export bdate=$(date +%Y-%m-%d_%H:%M:%S)      # Info for end time
+bdate=$(date +%Y-%m-%d_%H:%M:%S)          # Info for end time
 echo "Job  Start  in:     "$adate
-echo "All Done! End time: "$bdate            # Just to know how long it took
+echo "All Done! End time: "$bdate         # Just to know how long it took
