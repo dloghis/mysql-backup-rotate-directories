@@ -12,7 +12,7 @@
 
 # Remember if someone can read your script he will know the MySQL root password
 SERVERIP=$(hostname -i)                 # Your Server IP
-SERVERHOSTNAME=$(hostname)              # Your Server Host Name just for info if you have multiple servers (-A long , -s sort hostname)
+SERVERHOSTNAME=$(hostname -A)           # Your Server Host Name just for info if you have multiple servers (-A long , -s sort hostname)
 DB_BACKUP="/root/db_backup"             # Dir for backup files like this "/root/db_backup"
 TMP=$DB_BACKUP/tmp                      # Temp folder where databases are dumped
 DB_USER="root"                          # mySQL user name usally root for all dbs
