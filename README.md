@@ -4,7 +4,7 @@ Backup Databases and rotate your directories
 
 EN - English
 ----------------------------------------------------------
-MySQL backup script
+Bash script for MySQL backup
 ----------------------------------------------------------
 This script is to backup all your databases in your MySQL.
 You don't have to enter every time which database you want to backup.
@@ -14,7 +14,7 @@ You can adjust how many days you want to keep your backups.
 
 EL - Ελληνικά
 ----------------------------------------------------------
-MySQL script για backup
+Bash script για MySQL backup
 ----------------------------------------------------------
 Αυτό το script είναι να δημιουργήσετε αντίγραφα ασφαλείας όλων των βάσεων δεδομένων σας στη MySQL.
 Δεν χρειάζεται να εισάγετε κάθε φορά ποιες βάσεις θέλετε.
