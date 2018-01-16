@@ -48,6 +48,9 @@ echo ""
 
 # Make dir to dump datadases
 mkdir -p $TMP/$daily_date
+# mkdir -p $DB_BACKUP/backup-monthly/
+# mkdir -p $DB_BACKUP/backup-weekly/
+# mkdir -p $DB_BACKUP/backup-daily/
 
 # Starting dump
 echo "Creating new Backups... in $TMP/$daily_date"
